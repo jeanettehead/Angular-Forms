@@ -1,0 +1,18 @@
+body{
+    background-color: #ccc;
+}
+input{
+        border-width: 4px;
+}
+input.ng-pristine{
+    background-color: #ffffcf;    
+}
+input.ng-valid{
+    border-color: #5fff5f;
+}
+input.ng-dirty{
+    background-color: #cfcfff;
+}
+input.ng-invalid{
+    border-color: #ff2f2f;
+}

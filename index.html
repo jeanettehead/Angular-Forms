@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Example</title>
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body ng-app="FormApp">
+    <div class="container" ng-controller="FormController">
+        <div class="row text-center"  >
+            <h2 class="title">{{title}}</h1>
+            <br><br>
+        </div>
+        <form action="">
+            <div class="row text-center">
+                <label for="" class="col-md-3" >text</label>
+                <input type="text" class="col-md-3" ng-model="text"> 
+            </div>
+            <div class="row text-center">
+                <label for="" class="col-md-3">number</label>
+                <input type="number" class="col-sm-3"  ng-model="number">
+            </div>
+            <div class="row text-center">
+                <label for="" class="col-md-3">email</label>
+                <input class="col-md-3" type="email"  ng-model="email">
+            </div>
+            <div class="row text-center">
+                <label for="" class="col-md-3" >URL</label>
+                <input type="url" class="col-md-3" ng-model="fifth">
+            </div>
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="js/lib/angular.min.js"></script>
+<script type="text/javascript" src="js/app/app.js"></script>
+<script type="text/javascript" src="js/app/controller.js"></script>
+
+</html>
